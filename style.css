@@ -1,0 +1,37 @@
+
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #9c7777;
+  }
+
+  .container {
+    text-align: center;
+  }
+
+  h1 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #463b3b; 
+    margin-bottom: 20px;
+  }
+
+  #btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff; 
+    background-color: #0a0a0a; 
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+  }
+
+  #btn:hover {
+    background-color: #853f3f;
+  }
